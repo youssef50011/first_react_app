@@ -1,0 +1,63 @@
+.port{
+    font-family: sans-serif;
+    letter-spacing: 5px;
+}
+
+.star{
+    position:relative;
+}
+
+.right{
+    position:absolute;
+   left:50%;
+   transform: translate(40%,209%);
+    background-color: #ae2c2c;
+    height: 5px;
+    width:150px;
+
+}
+.left{
+    position:absolute;
+   right:50%;
+   transform: translate(-40%,210%);
+    background-color: #a01919;
+    height: 5px;
+    width:150px;
+
+}
+.img{
+    position: relative;
+    overflow: hidden;
+}
+.myhover{
+position: absolute;
+top: 100%;
+bottom: 0;
+right:0;
+left:0;
+opacity: 0;
+z-index: 99999999;
+background-color: rgba(0, 0, 0, 0.814);
+transition: 0.5s;
+}
+
+.img:hover .myhover{
+    top: 0;
+    bottom: 0;
+right:0;
+left:0;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.814);
+
+}
+.plus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:50%;
+    color:#fff;
+  cursor: pointer;
+    font-size: 45px;
+}
+

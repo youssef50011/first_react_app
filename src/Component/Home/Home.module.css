@@ -1,0 +1,40 @@
+.bg{
+   
+    background-color: rgba(0, 0, 0, 0.814);
+    z-index: 99999999999999999;
+}
+
+.divhome{
+  display: flex;
+  justify-content: center;
+  
+}
+.star{
+    position:relative;
+}
+
+.right{
+    position:absolute;
+   left:50%;
+   transform: translate(40%,209%);
+    background-color: #fff;
+    height: 5px;
+    width:150px;
+
+}
+.left{
+    position:absolute;
+   right:50%;
+   transform: translate(-40%,210%);
+    background-color: #fff;
+    height: 5px;
+    width:150px;
+
+}
+
+.heading{
+    font-family: sans-serif;
+    letter-spacing: 5px;
+  
+    
+}

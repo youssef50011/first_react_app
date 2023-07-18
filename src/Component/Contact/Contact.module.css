@@ -1,0 +1,35 @@
+.star{
+    position:relative;
+}
+
+.right{
+    position:absolute;
+   left:50%;
+   transform: translate(40%,209%);
+    background-color: #ae2c2c;
+    height: 5px;
+    width:150px;
+
+}
+.left{
+    position:absolute;
+   right:50%;
+   transform: translate(-40%,210%);
+    background-color: #a01919;
+    height: 5px;
+    width:150px;
+
+}
+.bg{
+
+    background-color: rgba(0, 0, 0, 0.814);
+color:#fff;
+
+
+}
+.label{
+    text-align: center;
+}
+.centered_placeholder::placeholder {
+    text-align: center;
+  }
